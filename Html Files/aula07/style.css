@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding:  0px;
+}
+
+.content{
+	background-color: #ddd;
+	width: 1200px;
+	margin: auto;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+header{
+	background-color: #fff;
+	width: 1200px;
+	height: 250px;
+}
+
+nav{
+	background-color: #fff;
+	width: 1200px;
+	height: 50px;
+	margin-top: 5px;
+}
+
+section{
+	background-color: #fff;
+	width: 900px;
+	height: 500px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}
+
+article{
+	/*Outra fomra de adicionar uma imagem:
+	background-image: url([caminho]);
+	background-position: [%] [%]; Posição da imagem
+    */
+	background-color: #777;
+	width: 300px;
+	height: 350px;
+	transition: 1s;
+}
+
+article:hover{
+	background-position: 30% 0%; /*Desloca a imagem conforme passamos o mouse*/
+	transition: 1s; /*Adiciona uma transição suave*/
+}
+
+
+figcaption{
+	padding: 10px;
+	text-align: justify;
+}
+
+aside{
+	background-color: #fff;
+	width: 295px;
+	height: 500px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+footer{
+	background-color: #fff;
+	width: 1200px;
+	height: 60px;
+	clear: both; /*Limpa o códgio de float*/
+}
